@@ -4,8 +4,8 @@ import Button from "./button";
 
 export default function Navbar() {
   return (
-    <nav className="w-full fixed top-0 z-50">
-      <div className="flex h-14 items-center justify-between max-w-6xl w-full mx-auto">
+    <header className="w-full fixed top-0 z-50">
+      <nav className="flex h-14 items-center justify-between max-w-6xl w-full mx-auto">
         <Link to="/">
           <span className="flex items-center justify-center gap-2 font-bold">
             <FlaskRound />
@@ -23,7 +23,7 @@ export default function Navbar() {
           </div>
         </div>
         <Button>Log in</Button>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 }
