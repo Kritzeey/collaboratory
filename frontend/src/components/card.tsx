@@ -8,7 +8,7 @@ interface Props {
 export default function Card(props: Props) {
   return (
     <div
-      className="p-5 flex flex-col items-center gap-4 rounded-xl w-full col-span-1 h-64 outline 
+      className="p-6 flex flex-col items-center gap-4 rounded-xl w-full col-span-1 outline 
     outline-white/30 bg-white/5"
     >
       <div
