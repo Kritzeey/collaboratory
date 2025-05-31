@@ -8,6 +8,7 @@ body {
 
 @theme {
   --font-sans: "Inter", "sans-serif";
+  --color-rosewater: #f5e0dc;
   --color-pink: #f5c2e7;
   --color-mauve: #cba6f7;
   --color-green: #a6e3a1;
@@ -19,9 +20,4 @@ body {
   --color-text: #cdd6f4;
   --color-base: #1e1e2e;
   --color-mantle: #181825;
-}
-
-.dotted {
-  background-image: radial-gradient(circle, #cdd6f4 2px, transparent 1px);
-  background-size: 128px 128px;
 }
