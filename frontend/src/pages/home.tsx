@@ -1,8 +1,9 @@
+import Hero from "../components/hero";
 
 export default function Home() {
   return (
-    <div className="flex h-dvh w-full items-center justify-center">
-      Hello World
+    <div className="relative">
+      <Hero />
     </div>
-  )
+  );
 }

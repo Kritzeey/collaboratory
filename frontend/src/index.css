@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 @import "tailwindcss";
 
 body {
@@ -8,6 +8,20 @@ body {
 
 @theme {
   --font-sans: "Inter", "sans-serif";
-  --color-base: #1e1e2e;
+  --color-pink: #f5c2e7;
+  --color-mauve: #cba6f7;
+  --color-green: #a6e3a1;
+  --color-teal: #94e2d5;
+  --color-sky: #89dceb;
+  --color-sapphire: #74c7ec;
+  --color-blue: #89b4fa;
+  --color-lavender: #b4befe;
   --color-text: #cdd6f4;
+  --color-base: #1e1e2e;
+  --color-mantle: #181825;
+}
+
+.dotted {
+  background-image: radial-gradient(circle, #cdd6f4 2px, transparent 1px);
+  background-size: 128px 128px;
 }
